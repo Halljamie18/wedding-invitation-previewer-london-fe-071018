@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <!--<meta name="viewport" content="width-device-width, initial-scale=1.0" charset="utf-8">-->
+    <meta name="description" content="A nice wedding planner invitation tool, completely FREE to use">
+    <meta name="title" content ="Wedding Invitation Planner">
+    <title>Wedding Invitation Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500,600|Playfair+Display:400,700" rel="stylesheet">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <!--<script src="bower_components/jquery.boxfit/dist/jquery.boxfit.min.js" type="text/javascript"></script>-->
+  </head>
+  
+  <body>
+
+<!--90% wrapper-->
+
+    <div class="wrapper">
+      <h1>Wedding Invitation Designer</h1>
+      
+        <div id="Flex">
+
+<!--Containers for left side-->
+
+          <div id="leftBundle">
+            <div id=buttons>
+              <button onclick="showPicture1()" id="Natural">Forest</button>
+              
+              <button onclick="showPicture2()" id="Gradient">Gradient</button>
+              
+              <button onclick="showPicture3()" id="Classy">Classy</button>
+            </div>
+            
+            <div id="divider">
+              <div id="leftDivider"></div>
+            </div>
+         
+            <form method="get" id="form">
+              
+              <div class="formFields">
+                <label for="POST-name">First Name:</label>
+                <input type="text" name="name" id="inputFirst">
+              </div>
+              
+              <div class="formFields">
+                <label for="POST-name">Second Name:</label>
+                <input type="text" name="name" id="inputSecond">
+              </div>
+              
+              <div class="formFields">
+                <label for="Date">Date:</label>
+                <input type="date" name="date" id="inputDate">
+              </div>
+              
+              <div class="formFields">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="inputEmail">
+              </div>
+              
+              <div class="formFields">
+                <label for="text">Wedding Location:</label>
+                <input type="text" name="location" id="inputLocation">
+              </div>
+              
+            </form>
+              
+          </div>
+
+<!--Containers for right side-->
+
+          <div id="rightBundle">
+            
+            <!--<div id="previewText">-->
+
+            <!--</div>  -->
+             
+            <div id="images">
+              <!--<div id=text>-->
+                <div id="outputFirst"></div>
+                <div id="outputSecond"></div>
+                <div id="outputSurname"></div>
+                <div id="outputDate"></div>
+                <div id="outputLocation"></div>
+              <!--</div>-->
+              <!--<div id=Image4></div>-->
+                
+              <img id="Image1" src="https://creative.blis.com/JamieInviteTest/Forest.jpg" alt="Forest image">
+              <img id="Image2" src="https://creative.blis.com/JamieInviteTest/Gradient.jpg" alt="Forest image">
+              <img id="Image3" src="https://creative.blis.com/JamieInviteTest/Classy.jpg" alt="Forest image">
+            </div>
+            
+          </div>
+          
+       </div>  
+    </div>
+    <!--use img change src content or have 3 images, display none, block on on highlihged and hide-->
+    
+    <!--Position relative to get the txt to appear where I want -->
+      
+  </body>
+
+</html>

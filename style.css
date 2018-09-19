@@ -1,0 +1,150 @@
+html, body {
+  background-color: #FFFCED;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  /*color: #f4f1e3;*/
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  color: #383838;
+}
+
+
+#leftBundle {
+  width: 50%;
+
+}
+
+#leftDivider {
+  height: 2px;
+  width: 98%;
+  background-color: #383838;
+}
+
+#divider {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+/*#previewText {*/
+/*    position: absolute;*/
+/*    top: 30%;*/
+/*    margin: center;*/
+/*    z-index:1;*/
+/*}*/
+
+
+#rightBundle {
+  width: 50%;
+}
+
+#images {
+  /*display: block;*/
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+p {
+  z-index: 1;
+  color: green;
+  font-size: 20px;
+  margin: 0px;
+  font-family: Montserrat 400;
+  top: 30px;
+}
+
+#outputFirst {
+  font-family: Arial;
+  font-size: 3vw;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  top: 90px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  /*font-size: 10px;*/
+  /*background: black;*/
+  z-index: 1;
+}
+
+#outputSecond {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  top: 190px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 10px;
+  /*background: blue;*/
+  z-index: 1;
+}
+
+#Image1 { 
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#Image2 { 
+  width: 100%;
+  position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+#Image3 { 
+  width: 100%;
+  position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+/*#Image4 {*/
+/*  background-image: url("https://creative.blis.com/JamieInviteTest/Forest.jpg");*/
+/*}*/
+
+#Flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
+
+/*form {*/
+/*  display: block;*/
+/*}*/
+
+/*labels {*/
+/*  display: block;*/
+/*}*/
+
+/*.parent {*/
+/*  position: relative;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*}*/
+/*.image1 {*/
+/*  */
+/*  top: 0;*/
+/*  left: 0;*/
+/*}*/
+/*.image2 {*/
+/*  position: absolute;*/
+/*  top: 30px;*/
+/*  left: 70px;*/
+/*}*/
